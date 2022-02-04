@@ -7,6 +7,7 @@ import growAnimation from '../../animation/growAnimation';
 import fadeInAnimation from '../../animation/fadeInAnimation';
 import Container from '../../components/Container';
 import colorShiftAnimation from '../../animation/colorShiftAnimation';
+import TextContainer from '../../components/TextContainer';
 
 interface Props {
     showHeader: (show: boolean) => void;
@@ -57,10 +58,6 @@ const BlackBox = styled.div`
     }
 `;
 
-const TextContainer = styled.div`
-    text-transform: uppercase;
-`;
-
 const AnimatedDiv = styled.div`
     opacity: 0;
     color: red;
@@ -102,7 +99,7 @@ const HomeScreen: React.FC<Props> = ({ showHeader }) => {
     return (
         <>
             {isOpened ? (
-                <Container black>
+                <Container main>
                     <TextContainer>
                         <AnimatedDiv>
                             You have opened the Pandora's Box

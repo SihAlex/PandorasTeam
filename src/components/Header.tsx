@@ -49,7 +49,7 @@ const Header: React.FC<Props> = () => {
                         isActive ? activeStyle : standartStyle
                     }
                 >
-                    Services
+                    Projects
                 </NavLink>
                 <NavLink
                     to="/about"
