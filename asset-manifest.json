@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/PandorasTeam/static/css/main.b4c7bf80.css",
-    "main.js": "/PandorasTeam/static/js/main.cb86e895.js",
+    "main.js": "/PandorasTeam/static/js/main.aa6cc43e.js",
     "index.html": "/PandorasTeam/index.html",
     "main.b4c7bf80.css.map": "/PandorasTeam/static/css/main.b4c7bf80.css.map",
-    "main.cb86e895.js.map": "/PandorasTeam/static/js/main.cb86e895.js.map"
+    "main.aa6cc43e.js.map": "/PandorasTeam/static/js/main.aa6cc43e.js.map"
   },
   "entrypoints": [
     "static/css/main.b4c7bf80.css",
-    "static/js/main.cb86e895.js"
+    "static/js/main.aa6cc43e.js"
   ]
 }
